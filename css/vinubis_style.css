@@ -1,0 +1,193 @@
+
+#wpcontent {
+    padding-left: 0 !important;
+}
+
+.vinubis-editor_page_vinubis-contact #wpbody,
+.vinubis-editor_page_vinubis-contact #wpbody-content,
+.vinubis-editor_page_vinubis-about #wpbody,
+.vinubis-editor_page_vinubis-about #wpbody-content {
+    height: calc(100vh - 32px);
+}
+
+.vinubis-videoeditor .container {
+    width: 100% !important;
+}
+
+#wpbody-content {
+    padding-bottom: 0;
+    min-height: calc(100vh - 32px);
+    font-family: "Roboto", sans-serif;
+}
+
+#wpfooter {
+    display: none;
+}
+
+.vinubis-main {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.vinubis-main h3 {
+    color: #fff;
+}
+
+.vinubis-main {
+    padding: 0 20px;
+}
+
+.vinubis-header-bar {
+    padding: 15px 0 10px 0;
+    border-bottom: 1px #fff solid;
+}
+
+.vinubis-header-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    border-right: 1px solid #fff;
+    padding: 0 15px;
+    transition: .3s all ease;
+    -webkit-appearance: none;
+}
+.vinubis-header-bar a:hover,
+.vinubis-header-bar a.current {
+    color: #5e85a6;
+}
+.vinubis-header-bar a:focus, a:hover, a:active {
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
+
+.vinubis-social {
+    width: 24px;
+    height: 24px;
+    border-right: none !important;
+    float: right;
+    background: no-repeat center center;
+    background-size: auto 24px;
+    margin: -4px 10px;
+}
+
+#vinubis-logout {
+    border-right: none !important;
+}
+#vinubis-logout.vinubis-is-logged-out {
+    display: none;
+}
+
+.vinubis-header-bar > a:nth-child(4) {
+    border-right: none;
+}
+
+.vinubis-question {
+    float: right;
+    border-right: none !important;
+}
+
+.vinubis-question img {
+    width: 40px;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    margin: -4px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/*contact page*/
+
+.vinubis-editor_page_vinubis-contact h2 {
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: 33px;
+}
+
+.vinubis-editor_page_vinubis-contact h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.vinubis-editor_page_vinubis-contact textarea {
+    height: 200px;
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ababab;
+    margin-bottom: 10px;
+    transition: .3s all ease;
+}
+
+.vinubis-editor_page_vinubis-contact input {
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ababab;
+    margin-left: 0;
+    margin-bottom: 10px;
+    transition: .3s all ease;
+}
+
+#vinubis-contact-submit {
+    color: #fff;
+    border: 2px #fff solid;
+    border-radius: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+#vinubis-contact-submit:hover {
+    background: #5E85A6;
+}
+
+#vinubis-feedback {
+    margin-left: 33px;
+}
+
+.vinubis-error-email,
+.vinubis-error-message {
+    margin-top: -10px;
+    margin-bottom: 0;
+    transition: .3s all ease;
+}
+
+#vinubis-form-messages {
+    /*margin-left: 33px;*/
+}
+
+#showMobile {
+    display: none;
+}
+
+
+/*end*/
+
+
+/*Vinubis Responsive Styles*/
+@media (max-width: 760px) {
+    .vinubis-not-sm {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .vinubis-not-xs {
+        display: none;
+    }
+}
